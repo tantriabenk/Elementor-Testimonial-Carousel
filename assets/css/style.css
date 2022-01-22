@@ -1,0 +1,88 @@
+/* 
+========================================
+------------- Widget Style -------------
+======================================== */
+
+/* Testimonial Carousel */
+.etc-slides__wrapper{
+    position: relative;
+}
+
+.etc-slides__testimonial.etc-slides__testimonial-above{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+.etc-slides__arrows .slick-arrow{
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.etc-slides__arrows .slick-arrow i{
+    font-size: 25px;
+}
+
+.etc-slides__arrows .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -12.5px;
+}
+
+.etc-slides__arrows .slick-arrow.etc-arrow__prev{
+    left: 0;
+}
+
+.etc-slides__arrows .slick-arrow.etc-arrow__next{
+    right: 0px;;
+}
+
+.etc-slides__item .etc-slides__image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+
+.etc-slides__item-footer{
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.etc-slides__testimonial-above .etc-slides__item-footer{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.etc-slides__item-footer .etc-slides__image{
+    margin-right: 20px;
+}
+
+.etc-slides__item-footer .etc-slides__name-position{
+    text-align: left;
+}
+
+.etc-slides__content .etc-slides__name-position{
+    margin-top: 20px;
+}
+
+.etc-slides__name-position span{
+    display: block;
+}
+
+.etc-slides__wrapper .slick-dots{
+    position: relative;
+    margin-top: 15px;
+}
+
+.etc-slides__image-above{
+    margin-bottom: 20px;
+}
